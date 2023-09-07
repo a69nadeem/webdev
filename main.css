@@ -1,0 +1,32 @@
+body {
+    background: radial-gradient(navy, black);
+    color: aliceblue;
+    text-align: center;
+
+    /* this is for advance positioning*/
+
+    height: 50vh;
+    display: grid;
+    place-items: center;
+
+}
+
+#backend {
+    scale: -1;
+}
+
+main {
+    background: black;
+    border: 4px double;
+    border-radius: 50%;
+    color: hotpink;
+    width: 200px;
+    height: 200px;
+    display: grid;
+    place-items: center;
+    animation: rota 30s infinite;
+ }
+    @keyframes rota {
+    0%{ rotate: 0deg; }
+    100% { rotate: 360deg; }
+}
